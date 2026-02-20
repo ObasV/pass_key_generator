@@ -3,14 +3,13 @@ body{
     justify-content: center;
     height: 100dvh;
     display: flex;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 .container {
     Width: min(450px, 90%); 
     background: #8c92bb;
     Border-radius : 8px;
-    Box-shadow: rgba (50, 50, 93, 0.25) 0px 50px 100px -20px, 
-    rgba(0, 0, 0, 0.3) Opx 30px 60px -30px;
 }
 .container p {
     font-weight: 600;
